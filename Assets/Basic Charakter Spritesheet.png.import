@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bn24nuvb5xr11"
-path="res://.godot/imported/among_us_sprite_sheet_by_kingike75_by_kingike75_de4i4jg-fullview.jpg-82acdcd5f404646b1c0fac8be5e9db42.ctex"
+uid="uid://ccq3kqx8x4fqt"
+path="res://.godot/imported/Basic Charakter Spritesheet.png-a54ceb53fc76936fa12d958d3d75f013.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/among_us_sprite_sheet_by_kingike75_by_kingike75_de4i4jg-fullview.jpg"
-dest_files=["res://.godot/imported/among_us_sprite_sheet_by_kingike75_by_kingike75_de4i4jg-fullview.jpg-82acdcd5f404646b1c0fac8be5e9db42.ctex"]
+source_file="res://Assets/Basic Charakter Spritesheet.png"
+dest_files=["res://.godot/imported/Basic Charakter Spritesheet.png-a54ceb53fc76936fa12d958d3d75f013.ctex"]
 
 [params]
 
