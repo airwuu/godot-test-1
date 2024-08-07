@@ -1573,3 +1573,4 @@ position = Vector2(-1, -2)
 
 [node name="Line2D" type="Line2D" parent="CharacterBody2D"]
 script = ExtResource("4_ty5k4")
+speed = null

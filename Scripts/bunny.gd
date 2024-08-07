@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
-@export var speed = 200
+@export var speed = 100
+
 var character_direction = "idle"
 func get_input():
 	var input_direction = Input.get_vector("left", "right", "up", "down")

@@ -1,7 +1,7 @@
 [gd_scene load_steps=26 format=3 uid="uid://1tgghriiej6h"]
 
+[ext_resource type="Script" path="res://Scripts/bunny.gd" id="1_grvh2"]
 [ext_resource type="Texture2D" uid="uid://ccq3kqx8x4fqt" path="res://Assets/Basic Charakter Spritesheet.png" id="1_lb111"]
-[ext_resource type="Script" path="res://Scenes/bunny.gd" id="1_p71mw"]
 [ext_resource type="Texture2D" uid="uid://bqq2cc4pofr41" path="res://Assets/2D Pixel Dungeon Asset Pack/light.png" id="3_ylsb2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_804hh"]
@@ -191,7 +191,7 @@ animations = [{
 radius = 6.0
 
 [node name="bunny" type="CharacterBody2D"]
-script = ExtResource("1_p71mw")
+script = ExtResource("1_grvh2")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 scale = Vector2(0.519999, 0.261271)

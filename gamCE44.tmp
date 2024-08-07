@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://brt574aj5k8y3" path="res://Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png" id="1_idcf8"]
 [ext_resource type="Texture2D" uid="uid://b1i4bhrfcorop" path="res://Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset.png" id="2_27gfw"]
 [ext_resource type="PackedScene" uid="uid://1tgghriiej6h" path="res://Scenes/bunny.tscn" id="2_j07fy"]
-[ext_resource type="Script" path="res://Scripts/Line2D.gd" id="4_ty5k4"]
+[ext_resource type="PackedScene" uid="uid://babqdmevux5m" path="res://Scenes/line_2d.tscn" id="4_g2psi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_upog0"]
 texture = ExtResource("1_idcf8")
@@ -1569,7 +1569,4 @@ color = Color(0.464786, 0.585967, 0.613537, 1)
 [node name="bunny" parent="." instance=ExtResource("2_j07fy")]
 position = Vector2(-1, -2)
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-
-[node name="Line2D" type="Line2D" parent="CharacterBody2D"]
-script = ExtResource("4_ty5k4")
+[node name="Line2D" parent="." instance=ExtResource("4_g2psi")]
