@@ -33,4 +33,4 @@ func _process(_delta):
 func _draw():
 	for i in get_point_count():
 		var point_position: Vector2 = get_point_position(i) 
-		draw_circle(point_position, 2, Color.ORANGE_RED)
+		draw_circle(point_position, get_point_count()-i+4, Color.ORANGE_RED)
